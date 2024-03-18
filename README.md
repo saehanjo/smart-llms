@@ -17,7 +17,7 @@ source .venv/bin/activate
 # Install requirements.
 pip install -r requirements.txt
 
-# Run experiments.
+# Run experiments. Results are saved in the CSV file: result/all.csv.
 mkdir result
 python run_exp.py
 ```
