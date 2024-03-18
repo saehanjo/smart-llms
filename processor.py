@@ -114,7 +114,7 @@ class Processor:
                 self.time_opt_ci += time.time() - start_time
                 for model, (l, u) in model2ci.items():
                     if (
-                        (idx + 1) % 10 == 0 or u < 1 - acc_diff or l >= 1 - acc_diff # or idx == 0
+                        (idx + 1) % 1000 == 0 or u < 1 - acc_diff or l >= 1 - acc_diff # or idx == 0
                     ) and model2result[model].status == ModelStatus.unknown:
                         print(
                             f"Idx: {idx}, Model: {model}, Same: {model2conform[model]}, Low: {l}, High: {u}"
