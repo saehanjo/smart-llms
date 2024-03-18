@@ -1,0 +1,16 @@
+dataset,nr_items,model,nr_prompt_tokens,nr_completion_tokens,cost,nr_processed,conformity
+imdb,50000,davinci-002,30900,1599,0.064998,100,0.0
+imdb,50000,gpt-4,31600,100,0.954,100,1.0
+imdb,50000,babbage-002,30900,1600,0.013,100,0.0
+imdb,50000,gpt-3.5-turbo-instruct,30900,103,0.046556,100,0.96
+imdb,50000,gpt-3.5-turbo-1106,31600,100,0.0318,100,0.94
+sms_spam,5574,davinci-002,4338,1600,0.011876,100,0.0
+sms_spam,5574,gpt-4,5038,200,0.16314,100,1.0
+sms_spam,5574,babbage-002,4338,1600,0.0023752,100,0.0
+sms_spam,5574,gpt-3.5-turbo-instruct,4338,213,0.006933,100,0.88
+sms_spam,5574,gpt-3.5-turbo-1106,5038,200,0.005438,100,0.94
+ag_news,127600,davinci-002,7854,1586,0.01888,100,0.01
+ag_news,127600,gpt-4,8554,136,0.26478,100,1.0
+ag_news,127600,babbage-002,7854,1600,0.0037816,100,0.0
+ag_news,127600,gpt-3.5-turbo-instruct,7854,138,0.012057,100,0.94
+ag_news,127600,gpt-3.5-turbo-1106,8554,134,0.008822,100,0.9
