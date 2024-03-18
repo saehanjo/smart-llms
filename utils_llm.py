@@ -18,11 +18,6 @@ model2pricing = {
         'prompt': 0.0004,
         'completion': 0.0004,
     },
-
-    # 'gpt-4-0125-preview': {
-    #     'prompt': 0.01,
-    #     'completion': 0.03,
-    # },
     'davinci-002': {
         'prompt': 0.002,
         'completion': 0.002,
